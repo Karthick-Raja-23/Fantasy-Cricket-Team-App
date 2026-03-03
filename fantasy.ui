@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>767</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QWidget" name="verticalWidget" native="true">
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="YS">
+         <property name="text">
+          <string>Your Selections</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="horizontalWidget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="lblBAT">
+            <property name="text">
+             <string>Batsmen (BAT) 0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblBOW">
+            <property name="text">
+             <string>Bowlers (BWL) 0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblAR">
+            <property name="text">
+             <string>Allrounders (AR) 0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblWK">
+            <property name="text">
+             <string>Wicket-keeper (WK) 0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="horizontalWidget" native="true">
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QWidget" name="LPanel" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="Pavl">
+            <property name="text">
+             <string>Points Available: 1000</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Category</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QWidget" name="widget" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QRadioButton" name="rbBAT">
+                  <property name="text">
+                   <string>BAT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="rbBOW">
+                  <property name="text">
+                   <string>BWL</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="rbAR">
+                  <property name="text">
+                   <string>AR</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="rbWK">
+                  <property name="text">
+                   <string>WK</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listAvailable"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAdd">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>&gt;</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>8</width>
+           <height>16</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="RPanel" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>11</number>
+          </property>
+          <property name="rightMargin">
+           <number>11</number>
+          </property>
+          <property name="bottomMargin">
+           <number>10</number>
+          </property>
+          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+           <widget class="QLabel" name="lblPointsUsed">
+            <property name="text">
+             <string>Points Used: 0</string>
+            </property>
+            <property name="margin">
+             <number>12</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lblTeamName">
+            <property name="text">
+             <string>Team Name: (Display Here)</string>
+            </property>
+            <property name="margin">
+             <number>15</number>
+            </property>
+            <property name="indent">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listSelected">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>563</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuManage_Team">
+    <property name="title">
+     <string>Manage Teams</string>
+    </property>
+    <addaction name="actionNew_Team"/>
+    <addaction name="actionOpen_Team"/>
+    <addaction name="actionSave_Team"/>
+    <addaction name="actionEvaluate_Score"/>
+   </widget>
+   <addaction name="menuManage_Team"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew_Team">
+   <property name="text">
+    <string>New Team</string>
+   </property>
+  </action>
+  <action name="actionOpen_Team">
+   <property name="text">
+    <string>Open Team</string>
+   </property>
+  </action>
+  <action name="actionSave_Team">
+   <property name="text">
+    <string>Save Team</string>
+   </property>
+  </action>
+  <action name="actionEvaluate_Score">
+   <property name="text">
+    <string>Evaluate Score</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
