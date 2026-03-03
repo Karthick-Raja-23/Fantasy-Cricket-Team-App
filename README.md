@@ -15,5 +15,16 @@ A desktop application built using Python, PyQt5, and SQLite.
 - SQLite3
 - SQL (CRUD operations)
 
+## Screenshots
+
+### Main Interface
+![Main UI](screenshots/main-ui.png)
+
+### Team Saved Confirmation
+![Team Saved](screenshots/team-saved.png)
+
+### Score Evaluation
+![Score Evaluation](screenshots/score-evaluation.png)
+
 ## Author
 Karthick Raja
