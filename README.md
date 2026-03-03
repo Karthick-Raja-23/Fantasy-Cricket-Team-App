@@ -18,13 +18,13 @@ A desktop application built using Python, PyQt5, and SQLite.
 ## Screenshots
 
 ### Main Interface
-![Main UI](screenshots/main-ui.png)
+![Main UI](Screenshots/main-ui.png)
 
 ### Team Saved Confirmation
-![Team Saved](screenshots/team-saved.png)
+![Team Saved](Screenshots/team-saved.png)
 
 ### Score Evaluation
-![Score Evaluation](screenshots/score-evaluation.png)
+![Score Evaluation](Screenshots/score-evaluation.png)
 
 ## Author
 Karthick Raja
